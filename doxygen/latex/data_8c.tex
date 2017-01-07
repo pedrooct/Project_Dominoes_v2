@@ -1,0 +1,333 @@
+\section{data.\+c File Reference}
+\label{data_8c}\index{data.\+c@{data.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}../func\+\_\+h/data.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../func\+\_\+h/lib\+\_\+util.\+h\char`\"{}}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bf works}~1
+\item 
+\#define {\bf dworks}~0
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int {\bf generate\+\_\+fac} (int number, int nfac)
+\begin{DoxyCompactList}\small\item\em Função generate\+\_\+fac server para gerar o factorial do numero de peças. \end{DoxyCompactList}\item 
+int {\bf generate\+\_\+deck} (int matrix\+\_\+main[$\,$][2], int lines, int columns)
+\begin{DoxyCompactList}\small\item\em Vai gerar o baralho. \end{DoxyCompactList}\item 
+void {\bf print\+\_\+deck} (int matrix\+\_\+main[$\,$][2], int lines, int columns)
+\begin{DoxyCompactList}\small\item\em Serve para imprimir o baralhos. \end{DoxyCompactList}\item 
+int {\bf uniforme} (int rand\+\_\+min\+\_\+val, int rand\+\_\+max\+\_\+val)
+\begin{DoxyCompactList}\small\item\em A função uniforme permite gerar peças aleatórias. \end{DoxyCompactList}\item 
+int {\bf generate\+\_\+hand} (int matrix\+\_\+main[$\,$][2], int matrix\+\_\+player[$\,$][2], int number, int pecas\+\_\+disponiveis)
+\begin{DoxyCompactList}\small\item\em Generate\+\_\+hand é a função que vai atribuir ao utilizador uma mão de jogo aleatória. \end{DoxyCompactList}\item 
+int {\bf verified} (int matrix\+\_\+tab[$\,$][2], int matrix\+\_\+player [$\,$][2], int matrix\+\_\+vmax[$\,$][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+\begin{DoxyCompactList}\small\item\em Função que vai verificar se uma peça é válida para jogo. \end{DoxyCompactList}\item 
+int {\bf play\+\_\+recursive} (int matrix\+\_\+tab[$\,$][2], int matrix\+\_\+player [$\,$][2], int matrix\+\_\+vmax[$\,$][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+\begin{DoxyCompactList}\small\item\em Esta função aplica a recursividade para determinar uma sequencia de peças. \end{DoxyCompactList}\item 
+int {\bf verified\+\_\+t} (int matrix\+\_\+tab[$\,$][2], int matrix\+\_\+player[$\,$][2], int matrix\+\_\+player2[$\,$][2], int matrix\+\_\+vmax[$\,$][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+\item 
+int {\bf play\+\_\+recursive\+\_\+t} (int matrix\+\_\+tab[$\,$][2], int matrix\+\_\+player [$\,$][2], int matrix\+\_\+player2[$\,$][2], int matrix\+\_\+vmax[$\,$][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+\begin{DoxyCompactList}\small\item\em Esta função permite que duas mãos joguem o jogo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\label{data_8c_a4551aec9a1b58e0a4377eeab4b20615b} 
+\index{data.\+c@{data.\+c}!dworks@{dworks}}
+\index{dworks@{dworks}!data.\+c@{data.\+c}}
+\subsubsection{dworks}
+{\footnotesize\ttfamily \#define dworks~0}
+
+\label{data_8c_a84778105730c89591a1da275b2d3e99c} 
+\index{data.\+c@{data.\+c}!works@{works}}
+\index{works@{works}!data.\+c@{data.\+c}}
+\subsubsection{works}
+{\footnotesize\ttfamily \#define works~1}
+
+
+
+\subsection{Function Documentation}
+\label{data_8c_a1c2b69f565fa7dc81328a53117e17dec} 
+\index{data.\+c@{data.\+c}!generate\+\_\+deck@{generate\+\_\+deck}}
+\index{generate\+\_\+deck@{generate\+\_\+deck}!data.\+c@{data.\+c}}
+\subsubsection{generate\+\_\+deck()}
+{\footnotesize\ttfamily int generate\+\_\+deck (\begin{DoxyParamCaption}\item[{int}]{matrix\+\_\+main[$\,$][2],  }\item[{int}]{lines,  }\item[{int}]{columns }\end{DoxyParamCaption})}
+
+
+
+Vai gerar o baralho. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\+\_\+main\mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int \\
+\hline
+{\em lines} & int \\
+\hline
+{\em columns} & int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Esta função permite gerar todas as peças do baralho. 
+\end{DoxyReturn}
+\label{data_8c_ad8e65cdd5972e38e5f2c2f9b2bb72328} 
+\index{data.\+c@{data.\+c}!generate\+\_\+fac@{generate\+\_\+fac}}
+\index{generate\+\_\+fac@{generate\+\_\+fac}!data.\+c@{data.\+c}}
+\subsubsection{generate\+\_\+fac()}
+{\footnotesize\ttfamily int generate\+\_\+fac (\begin{DoxyParamCaption}\item[{int}]{number,  }\item[{int}]{nfac }\end{DoxyParamCaption})}
+
+
+
+Função generate\+\_\+fac server para gerar o factorial do numero de peças. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em number} & int \\
+\hline
+{\em nfac} & int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\label{data_8c_a5ffbda42a32185aeffac912192b522cd} 
+\index{data.\+c@{data.\+c}!generate\+\_\+hand@{generate\+\_\+hand}}
+\index{generate\+\_\+hand@{generate\+\_\+hand}!data.\+c@{data.\+c}}
+\subsubsection{generate\+\_\+hand()}
+{\footnotesize\ttfamily int generate\+\_\+hand (\begin{DoxyParamCaption}\item[{int}]{matrix\+\_\+main[$\,$][2],  }\item[{int}]{matrix\+\_\+player[$\,$][2],  }\item[{int}]{number,  }\item[{int}]{pecas\+\_\+disponiveis }\end{DoxyParamCaption})}
+
+
+
+Generate\+\_\+hand é a função que vai atribuir ao utilizador uma mão de jogo aleatória. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\+\_\+main\mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int \\
+\hline
+{\em matrix\+\_\+player\mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int \\
+\hline
+{\em number} & int \\
+\hline
+{\em pecas\+\_\+disponiveis} & int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Esta função atinge este fim graças a função uniforme que retorna um valor aleatório que é atribuido a um indice 
+\end{DoxyReturn}
+\label{data_8c_a97253dbbaf7b385a38338717923e56e9} 
+\index{data.\+c@{data.\+c}!play\+\_\+recursive@{play\+\_\+recursive}}
+\index{play\+\_\+recursive@{play\+\_\+recursive}!data.\+c@{data.\+c}}
+\subsubsection{play\+\_\+recursive()}
+{\footnotesize\ttfamily int play\+\_\+recursive (\begin{DoxyParamCaption}\item[{int}]{matrix\+\_\+tab[$\,$][2],  }\item[{int}]{matrix\+\_\+player[$\,$][2],  }\item[{int}]{matrix\+\_\+vmax[$\,$][2],  }\item[{int}]{number,  }\item[{int}]{count,  }\item[{int}]{vmax,  }\item[{int}]{nfac,  }\item[{int}]{pecas,  }\item[{int}]{itera,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Esta função aplica a recursividade para determinar uma sequencia de peças. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\+\_\+tab\mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int \\
+\hline
+{\em \mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int matrix\+\_\+player \\
+\hline
+{\em matrix\+\_\+vmax\mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int \\
+\hline
+{\em number} & int \\
+\hline
+{\em count} & int \\
+\hline
+{\em vmax} & int \\
+\hline
+{\em nfac} & int \\
+\hline
+{\em pecas} & int \\
+\hline
+{\em itera} & int \\
+\hline
+{\em id} & int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\label{data_8c_a7435d274961198aa0b0869dc889f731f} 
+\index{data.\+c@{data.\+c}!play\+\_\+recursive\+\_\+t@{play\+\_\+recursive\+\_\+t}}
+\index{play\+\_\+recursive\+\_\+t@{play\+\_\+recursive\+\_\+t}!data.\+c@{data.\+c}}
+\subsubsection{play\+\_\+recursive\+\_\+t()}
+{\footnotesize\ttfamily int play\+\_\+recursive\+\_\+t (\begin{DoxyParamCaption}\item[{int}]{matrix\+\_\+tab[$\,$][2],  }\item[{int}]{matrix\+\_\+player[$\,$][2],  }\item[{int}]{matrix\+\_\+player2[$\,$][2],  }\item[{int}]{matrix\+\_\+vmax[$\,$][2],  }\item[{int}]{number,  }\item[{int}]{count,  }\item[{int}]{vmax,  }\item[{int}]{nfac,  }\item[{int}]{pecas,  }\item[{int}]{itera,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Esta função permite que duas mãos joguem o jogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\+\_\+tab\mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int \\
+\hline
+{\em \mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int matrix\+\_\+player \\
+\hline
+{\em matrix\+\_\+player2\mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int \\
+\hline
+{\em matrix\+\_\+vmax\mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int \\
+\hline
+{\em number} & int \\
+\hline
+{\em count} & int \\
+\hline
+{\em vmax} & int \\
+\hline
+{\em nfac} & int \\
+\hline
+{\em pecas} & int \\
+\hline
+{\em itera} & int \\
+\hline
+{\em id} & int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Esta função verifica se a peça a jogar é par ou impar e atribui ao jogador a jogada. 
+\end{DoxyReturn}
+Esta função vai guardar a maior sequencia ate á data
+
+
+\begin{DoxyParams}{Parameters}
+{\em v++} & v=0; v$<$vmax; Se o count for maior que o valor de vmax anterior entao ele vai guardar o valor e vai copiar a sequencia para a matrix\+\_\+vmax\\
+\hline
+\end{DoxyParams}
+\label{data_8c_a8dabf9f15d51d966996906bd059b9489} 
+\index{data.\+c@{data.\+c}!print\+\_\+deck@{print\+\_\+deck}}
+\index{print\+\_\+deck@{print\+\_\+deck}!data.\+c@{data.\+c}}
+\subsubsection{print\+\_\+deck()}
+{\footnotesize\ttfamily void print\+\_\+deck (\begin{DoxyParamCaption}\item[{int}]{matrix\+\_\+main[$\,$][2],  }\item[{int}]{lines,  }\item[{int}]{columns }\end{DoxyParamCaption})}
+
+
+
+Serve para imprimir o baralhos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\+\_\+main\mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int \\
+\hline
+{\em lines} & int \\
+\hline
+{\em columns} & int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\label{data_8c_a15fac1d410f3859a660549736da0ba8d} 
+\index{data.\+c@{data.\+c}!uniforme@{uniforme}}
+\index{uniforme@{uniforme}!data.\+c@{data.\+c}}
+\subsubsection{uniforme()}
+{\footnotesize\ttfamily int uniforme (\begin{DoxyParamCaption}\item[{int}]{rand\+\_\+min\+\_\+val,  }\item[{int}]{rand\+\_\+max\+\_\+val }\end{DoxyParamCaption})}
+
+
+
+A função uniforme permite gerar peças aleatórias. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rand\+\_\+min\+\_\+val} & int \\
+\hline
+{\em rand\+\_\+max\+\_\+val} & int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\label{data_8c_a6cfafbd7bff76ca465a286df279dc085} 
+\index{data.\+c@{data.\+c}!verified@{verified}}
+\index{verified@{verified}!data.\+c@{data.\+c}}
+\subsubsection{verified()}
+{\footnotesize\ttfamily int verified (\begin{DoxyParamCaption}\item[{int}]{matrix\+\_\+tab[$\,$][2],  }\item[{int}]{matrix\+\_\+player[$\,$][2],  }\item[{int}]{matrix\+\_\+vmax[$\,$][2],  }\item[{int}]{number,  }\item[{int}]{count,  }\item[{int}]{vmax,  }\item[{int}]{nfac,  }\item[{int}]{pecas,  }\item[{int}]{itera,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que vai verificar se uma peça é válida para jogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\+\_\+tab\mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int \\
+\hline
+{\em \mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int matrix\+\_\+player \\
+\hline
+{\em matrix\+\_\+vmax\mbox{[}$\,$\mbox{]}\mbox{[}2\mbox{]}} & int \\
+\hline
+{\em number} & int \\
+\hline
+{\em count} & int \\
+\hline
+{\em vmax} & int \\
+\hline
+{\em nfac} & int \\
+\hline
+{\em pecas} & int \\
+\hline
+{\em itera} & int \\
+\hline
+{\em id} & int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Esta função verifica todas as condições possiveis para ser uma peça válida ou não, devolvendo em macros works ou dworks 
+\end{DoxyReturn}
+$<$ A primeira peça encaixa sempre.
+
+Isto permite rodar as peças para evitar\textbackslash{} repetir
+
+
+\begin{DoxyParams}{Parameters}
+{\em j++} & j=itera; j$<$number;\\
+\hline
+\end{DoxyParams}
+Permite que nunca repita peças.
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\+\_\+tab\mbox{[}count-\/1\mbox{]}\mbox{[}1\mbox{]}==matrix\+\_\+tab\mbox{[}count\mbox{]}\mbox{[}1\mbox{]}} & matrix\+\_\+tab[count-\/1][0]==matrix\+\_\+tab[count][0] \&\& \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+else
+\end{DoxyReturn}
+Esta função vai permitir rodar a peça anterior a ela, mas só se a primeira peça for 0 , para não compremeter o resto do jogo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\+\_\+tab\mbox{[}count\mbox{]}\mbox{[}0\mbox{]}} & count-\/1==0 \&\&matrix\+\_\+tab[count-\/1][0]== \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+else
+\end{DoxyReturn}
+Verifica se a peça encaixa normalmente
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\+\_\+tab\mbox{[}count\mbox{]}\mbox{[}0\mbox{]}==matrix\+\_\+tab\mbox{[}count-\/1\mbox{]}\mbox{[}1\mbox{]}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+else
+\end{DoxyReturn}
+Este if permite verificar se , se rodarmos a peça ela pode encaixar na peça anterior
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\+\_\+tab\mbox{[}count\mbox{]}\mbox{[}1\mbox{]}==matrix\+\_\+tab\mbox{[}count-\/1\mbox{]}\mbox{[}1\mbox{]}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+else
+\end{DoxyReturn}
+\label{data_8c_a1ed60f2175f6c463916e59c5ade4600a} 
+\index{data.\+c@{data.\+c}!verified\+\_\+t@{verified\+\_\+t}}
+\index{verified\+\_\+t@{verified\+\_\+t}!data.\+c@{data.\+c}}
+\subsubsection{verified\+\_\+t()}
+{\footnotesize\ttfamily int verified\+\_\+t (\begin{DoxyParamCaption}\item[{int}]{matrix\+\_\+tab[$\,$][2],  }\item[{int}]{matrix\+\_\+player[$\,$][2],  }\item[{int}]{matrix\+\_\+player2[$\,$][2],  }\item[{int}]{matrix\+\_\+vmax[$\,$][2],  }\item[{int}]{number,  }\item[{int}]{count,  }\item[{int}]{vmax,  }\item[{int}]{nfac,  }\item[{int}]{pecas,  }\item[{int}]{itera,  }\item[{int}]{id }\end{DoxyParamCaption})}
+

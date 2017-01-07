@@ -1,0 +1,25 @@
+var structgame =
+[
+    [ "aux_aux", "structgame.html#ac0b5cc4619d8a2c9857e32762ddf4d04", null ],
+    [ "count", "structgame.html#ad43c3812e6d13e0518d9f8b8f463ffcf", null ],
+    [ "find_sequence", "structgame.html#a9fbfd1420917ac51f8dd60e67853c9d6", null ],
+    [ "hand_game", "structgame.html#a6e1db141840bd3983d02882f04570f4e", null ],
+    [ "id", "structgame.html#a7441ef0865bcb3db9b8064dd7375c1ea", null ],
+    [ "id_player", "structgame.html#a7a793a40560fbe6a7df025a117e93272", null ],
+    [ "itera", "structgame.html#a4de639ad0be1e63bc7aedf8fe4394b52", null ],
+    [ "lines_pecas", "structgame.html#ae4f5bed3e339576478268e9250424aa4", null ],
+    [ "matrix_aux", "structgame.html#ad87030c0ef08e36d9f60af34dd99ce6b", null ],
+    [ "n_player", "structgame.html#a39ccc68774c6100d6b2c046dc84c6866", null ],
+    [ "nfac", "structgame.html#ae5569fbdf017eb40aceb72763fe94956", null ],
+    [ "number", "structgame.html#a7106e2abc437ad981830d14176d15f09", null ],
+    [ "pecas", "structgame.html#adc720ee1dcfb796fdb3280415f5849ae", null ],
+    [ "pecas2", "structgame.html#ab4778eacafd091d3899a5e7452a6a0a9", null ],
+    [ "pecas_disponivel", "structgame.html#ae60b62c0bb69373797d5a949a6aee536", null ],
+    [ "pecas_game", "structgame.html#a7f37125079d5c742c05ef49ba0d63579", null ],
+    [ "saver", "structgame.html#a9755489f11ece05eca5fac2fbc0395cb", null ],
+    [ "saver_values", "structgame.html#aae92808d1081d706de26ec3c60478bde", null ],
+    [ "tab_game", "structgame.html#a3eed14365e2e849be282bdd3f7e13ea1", null ],
+    [ "vmax", "structgame.html#aeb4eb9ad2dc148d828a7f6e270aa0f09", null ],
+    [ "vmax_checker", "structgame.html#a0066596aab59689a4832ee3c176f43ee", null ],
+    [ "vmax_game", "structgame.html#a281417b6ed5ecdfaffa1f60b7c3ef1c9", null ]
+];

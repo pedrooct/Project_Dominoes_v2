@@ -1,0 +1,13 @@
+var searchData=
+[
+  ['game',['game',['../structgame.html',1,'game'],['../data_8h.html#a236a89c872208436ebb8cd483eadfbaa',1,'GAME():&#160;data.h']]],
+  ['gaussian',['gaussian',['../lib__util_8c.html#a8d0940427034cc3fd70a33400ba9ac16',1,'gaussian(double mean, double stddev):&#160;lib_util.c'],['../lib__util_8h.html#a8d0940427034cc3fd70a33400ba9ac16',1,'gaussian(double mean, double stddev):&#160;lib_util.c']]],
+  ['gaussian_5fnormal',['gaussian_normal',['../lib__util_8c.html#a8d93a4b3f317a076a2530b64f8f5094c',1,'gaussian_normal(void):&#160;lib_util.c'],['../lib__util_8h.html#a8d93a4b3f317a076a2530b64f8f5094c',1,'gaussian_normal(void):&#160;lib_util.c']]],
+  ['generate_5fdeck',['generate_deck',['../data_8c.html#a1c2b69f565fa7dc81328a53117e17dec',1,'generate_deck(int matrix_main[][2], int lines, int columns):&#160;data.c'],['../data_8h.html#a1c2b69f565fa7dc81328a53117e17dec',1,'generate_deck(int matrix_main[][2], int lines, int columns):&#160;data.c']]],
+  ['generate_5fdeck_5fsturct',['generate_deck_sturct',['../data__part2_8c.html#ad9143311bbde68c81123fd3592c0aa0f',1,'generate_deck_sturct(GAME *start):&#160;data_part2.c'],['../data_8h.html#ad9143311bbde68c81123fd3592c0aa0f',1,'generate_deck_sturct(GAME *start):&#160;data_part2.c']]],
+  ['generate_5ffac',['generate_fac',['../data_8c.html#ad8e65cdd5972e38e5f2c2f9b2bb72328',1,'generate_fac(int number, int nfac):&#160;data.c'],['../data_8h.html#ad8e65cdd5972e38e5f2c2f9b2bb72328',1,'generate_fac(int number, int nfac):&#160;data.c']]],
+  ['generate_5ffac_5fstruct',['generate_fac_struct',['../data__part2_8c.html#a3a62ed12fcc5caf8e92f06525904bc0f',1,'generate_fac_struct(GAME *start):&#160;data_part2.c'],['../data_8h.html#a3a62ed12fcc5caf8e92f06525904bc0f',1,'generate_fac_struct(GAME *start):&#160;data_part2.c']]],
+  ['generate_5fhand',['generate_hand',['../data_8c.html#a5ffbda42a32185aeffac912192b522cd',1,'generate_hand(int matrix_main[][2], int matrix_player[][2], int number, int pecas_disponiveis):&#160;data.c'],['../data_8h.html#a5ffbda42a32185aeffac912192b522cd',1,'generate_hand(int matrix_main[][2], int matrix_player[][2], int number, int pecas_disponiveis):&#160;data.c']]],
+  ['generate_5fhand_5fstruct',['generate_hand_struct',['../data__part2_8c.html#ae656a4552608931d269cfc300d98b6ed',1,'generate_hand_struct(GAME *start):&#160;data_part2.c'],['../data_8h.html#ae656a4552608931d269cfc300d98b6ed',1,'generate_hand_struct(GAME *start):&#160;data_part2.c']]],
+  ['gettimeuseconds',['gettimeuseconds',['../lib__util_8c.html#a82c8fe5237ffab8806520a9c3e6d5629',1,'gettimeuseconds(long long *time_usec):&#160;lib_util.c'],['../lib__util_8h.html#a82c8fe5237ffab8806520a9c3e6d5629',1,'gettimeuseconds(long long *time_usec):&#160;lib_util.c']]]
+];

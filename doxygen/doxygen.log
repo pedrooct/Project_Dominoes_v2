@@ -1,0 +1,106 @@
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:31: warning: argument '2' of command @param is not found in the argument list of generate_deck(int matrix_main[][2], int lines, int columns)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:96: warning: argument '2' of command @param is not found in the argument list of generate_hand(int matrix_main[][2], int matrix_player[][2], int number, int pecas_disponiveis)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:96: warning: argument '2' of command @param is not found in the argument list of generate_hand(int matrix_main[][2], int matrix_player[][2], int number, int pecas_disponiveis)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:252: warning: argument '2' of command @param is not found in the argument list of play_recursive(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:252: warning: argument '2' of command @param is not found in the argument list of play_recursive(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:252: warning: argument '2' of command @param is not found in the argument list of play_recursive(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:267: warning: The following parameters of play_recursive(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id) are not documented:
+  parameter 'matrix_player'
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:477: warning: argument '2' of command @param is not found in the argument list of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:477: warning: argument '2' of command @param is not found in the argument list of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:477: warning: argument '2' of command @param is not found in the argument list of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:477: warning: argument '2' of command @param is not found in the argument list of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:493: warning: The following parameters of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id) are not documented:
+  parameter 'matrix_player'
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:477: warning: argument 'v' of command @param is not found in the argument list of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:493: warning: The following parameters of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id) are not documented:
+  parameter 'matrix_tab'
+  parameter 'matrix_player'
+  parameter 'matrix_player2'
+  parameter 'matrix_vmax'
+  parameter 'number'
+  parameter 'count'
+  parameter 'vmax'
+  parameter 'nfac'
+  parameter 'pecas'
+  parameter 'itera'
+  parameter 'id'
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:58: warning: argument '2' of command @param is not found in the argument list of print_deck(int matrix_main[][2], int lines, int columns)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '2' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '2' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '2' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:144: warning: The following parameters of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id) are not documented:
+  parameter 'matrix_player'
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument 'j' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '0' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '0' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:144: warning: The following parameters of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id) are not documented:
+  parameter 'matrix_player'
+  parameter 'matrix_vmax'
+  parameter 'number'
+  parameter 'vmax'
+  parameter 'nfac'
+  parameter 'pecas'
+  parameter 'itera'
+  parameter 'id'
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:31: warning: argument '2' of command @param is not found in the argument list of generate_deck(int matrix_main[][2], int lines, int columns)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:96: warning: argument '2' of command @param is not found in the argument list of generate_hand(int matrix_main[][2], int matrix_player[][2], int number, int pecas_disponiveis)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:96: warning: argument '2' of command @param is not found in the argument list of generate_hand(int matrix_main[][2], int matrix_player[][2], int number, int pecas_disponiveis)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:252: warning: argument '2' of command @param is not found in the argument list of play_recursive(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:252: warning: argument '2' of command @param is not found in the argument list of play_recursive(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:252: warning: argument '2' of command @param is not found in the argument list of play_recursive(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func_h/data.h:16: warning: The following parameters of play_recursive(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id) are not documented:
+  parameter 'matrix_player'
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:477: warning: argument '2' of command @param is not found in the argument list of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:477: warning: argument '2' of command @param is not found in the argument list of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:477: warning: argument '2' of command @param is not found in the argument list of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:477: warning: argument '2' of command @param is not found in the argument list of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func_h/data.h:17: warning: The following parameters of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id) are not documented:
+  parameter 'matrix_player'
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:477: warning: argument 'v' of command @param is not found in the argument list of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func_h/data.h:17: warning: The following parameters of play_recursive_t(int matrix_tab[][2], int matrix_player[][2], int matrix_player2[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id) are not documented:
+  parameter 'matrix_tab'
+  parameter 'matrix_player'
+  parameter 'matrix_player2'
+  parameter 'matrix_vmax'
+  parameter 'number'
+  parameter 'count'
+  parameter 'vmax'
+  parameter 'nfac'
+  parameter 'pecas'
+  parameter 'itera'
+  parameter 'id'
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:58: warning: argument '2' of command @param is not found in the argument list of print_deck(int matrix_main[][2], int lines, int columns)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '2' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '2' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '2' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func_h/data.h:14: warning: The following parameters of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id) are not documented:
+  parameter 'matrix_player'
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument 'j' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '0' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '0' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func/data.c:129: warning: argument '1' of command @param is not found in the argument list of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id)
+C:/Users/Pedro Costa/Dropbox/2ano_projecto/project_dominoes/func_h/data.h:14: warning: The following parameters of verified(int matrix_tab[][2], int matrix_player[][2], int matrix_vmax[][2], int number, int count, int vmax, int nfac, int pecas, int itera, int id) are not documented:
+  parameter 'matrix_player'
+  parameter 'matrix_vmax'
+  parameter 'number'
+  parameter 'vmax'
+  parameter 'nfac'
+  parameter 'pecas'
+  parameter 'itera'
+  parameter 'id'

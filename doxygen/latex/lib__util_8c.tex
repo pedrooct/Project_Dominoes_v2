@@ -1,0 +1,239 @@
+\section{lib\+\_\+util.\+c File Reference}
+\label{lib__util_8c}\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+
+
+Implementation of some util function prototypes for aed1.  
+
+
+{\ttfamily \#include \char`\"{}../func\+\_\+h/lib\+\_\+util.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int {\bf read\+Ints} (char $\ast$filename, int $\ast$intvec, int nmax)
+\item 
+int {\bf read\+Ints\+Header} (char $\ast$filename, int $\ast$$\ast$intvec)
+\item 
+int {\bf gettimeuseconds} (long long $\ast$time\+\_\+usec)
+\item 
+int {\bf uniform} (int val\+\_\+min, int val\+\_\+max)
+\begin{DoxyCompactList}\small\item\em gera um inteiro aleatoriamente/uniformemente no intervalo\+: val\+\_\+min...val\+\_\+max \end{DoxyCompactList}\item 
+double {\bf uniform\+\_\+double} (void)
+\begin{DoxyCompactList}\small\item\em gera um double aleatoriamente/uniformemente no intervalo 0..1 \end{DoxyCompactList}\item 
+double {\bf uniform\+\_\+double\+\_\+interval} (double val\+\_\+min, double val\+\_\+max)
+\begin{DoxyCompactList}\small\item\em gera um double aleatoriamente/uniformemente no intervalo 0..1 \end{DoxyCompactList}\item 
+double {\bf gaussian\+\_\+normal} (void)
+\item 
+int {\bf uniform\+Array} (int $\ast$a, int N, int val\+\_\+min, int val\+\_\+max)
+\begin{DoxyCompactList}\small\item\em function to fill an array with integer random uniformly distributed values (returns -\/1 if error) \end{DoxyCompactList}\item 
+int {\bf uniform\+Distinct\+Array} (int $\ast$a, int N, int val\+\_\+min, int val\+\_\+max)
+\begin{DoxyCompactList}\small\item\em function to fill an array with integer random uniformly distributed distinct values (returns -\/1 if error) \end{DoxyCompactList}\item 
+double {\bf gaussian} (double mean, double stddev)
+\item 
+char $\ast$ {\bf new\+Char\+Array} (int N)
+\begin{DoxyCompactList}\small\item\em char array dynamic managing \end{DoxyCompactList}\item 
+void {\bf free\+Char\+Array} (char $\ast$v)
+\item 
+int $\ast$ {\bf new\+Int\+Array} (int N)
+\begin{DoxyCompactList}\small\item\em int array dynamic managing \end{DoxyCompactList}\item 
+void {\bf free\+Int\+Array} (int $\ast$v)
+\item 
+void {\bf print\+Array} (int $\ast$a, int N)
+\item 
+int {\bf compare\+Int\+Values} (const void $\ast$a, const void $\ast$b)
+\item 
+void {\bf sort\+Int\+Array} (int $\ast$v, int n)
+\item 
+int {\bf binary\+Search} (int a[$\,$], int n, int key)
+\item 
+int {\bf write\+Ints} (char $\ast$filename, int $\ast$intvec, int n)
+\item 
+int {\bf write\+Ints\+Header} (char $\ast$filename, int $\ast$intvec, int n)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implementation of some util function prototypes for aed1. 
+
+This file contains the implementations for some util functions you will need for aed1.
+
+\begin{DoxyAuthor}{Author}
+José Torres ({\tt jtorres@ufp.\+edu.\+pt}) 
+\end{DoxyAuthor}
+\begin{DoxyRefDesc}{Bug}
+\item[{\bf Bug}]No known bugs. \end{DoxyRefDesc}
+
+
+\subsection{Function Documentation}
+\label{lib__util_8c_a06ff287e8cdb6846b060b0824ee79e50} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!binary\+Search@{binary\+Search}}
+\index{binary\+Search@{binary\+Search}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{binary\+Search()}
+{\footnotesize\ttfamily int binary\+Search (\begin{DoxyParamCaption}\item[{int}]{a[$\,$],  }\item[{int}]{n,  }\item[{int}]{key }\end{DoxyParamCaption})}
+
+\label{lib__util_8c_a0332554d07bfa6f16c72bf25a812f4b1} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!compare\+Int\+Values@{compare\+Int\+Values}}
+\index{compare\+Int\+Values@{compare\+Int\+Values}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{compare\+Int\+Values()}
+{\footnotesize\ttfamily int compare\+Int\+Values (\begin{DoxyParamCaption}\item[{const void $\ast$}]{a,  }\item[{const void $\ast$}]{b }\end{DoxyParamCaption})}
+
+\label{lib__util_8c_a6696c76d3d7686350903547f51165d67} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!free\+Char\+Array@{free\+Char\+Array}}
+\index{free\+Char\+Array@{free\+Char\+Array}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{free\+Char\+Array()}
+{\footnotesize\ttfamily void free\+Char\+Array (\begin{DoxyParamCaption}\item[{char $\ast$}]{v }\end{DoxyParamCaption})}
+
+\label{lib__util_8c_a6e2f0bf3d35dd28d0d3e28953f745556} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!free\+Int\+Array@{free\+Int\+Array}}
+\index{free\+Int\+Array@{free\+Int\+Array}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{free\+Int\+Array()}
+{\footnotesize\ttfamily void free\+Int\+Array (\begin{DoxyParamCaption}\item[{int $\ast$}]{v }\end{DoxyParamCaption})}
+
+\label{lib__util_8c_a8d0940427034cc3fd70a33400ba9ac16} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!gaussian@{gaussian}}
+\index{gaussian@{gaussian}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{gaussian()}
+{\footnotesize\ttfamily double gaussian (\begin{DoxyParamCaption}\item[{double}]{mean,  }\item[{double}]{stddev }\end{DoxyParamCaption})}
+
+Return a real number from a gaussian distribution with given mean and stddev \label{lib__util_8c_a8d93a4b3f317a076a2530b64f8f5094c} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!gaussian\+\_\+normal@{gaussian\+\_\+normal}}
+\index{gaussian\+\_\+normal@{gaussian\+\_\+normal}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{gaussian\+\_\+normal()}
+{\footnotesize\ttfamily double gaussian\+\_\+normal (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Return a real number with a standard Gaussian distribution. \label{lib__util_8c_a82c8fe5237ffab8806520a9c3e6d5629} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!gettimeuseconds@{gettimeuseconds}}
+\index{gettimeuseconds@{gettimeuseconds}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{gettimeuseconds()}
+{\footnotesize\ttfamily int gettimeuseconds (\begin{DoxyParamCaption}\item[{long long $\ast$}]{time\+\_\+usec }\end{DoxyParamCaption})}
+
+\label{lib__util_8c_a5464788ff0b0aa7d80b59c71b491fd64} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!new\+Char\+Array@{new\+Char\+Array}}
+\index{new\+Char\+Array@{new\+Char\+Array}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{new\+Char\+Array()}
+{\footnotesize\ttfamily char$\ast$ new\+Char\+Array (\begin{DoxyParamCaption}\item[{int}]{N }\end{DoxyParamCaption})}
+
+
+
+char array dynamic managing 
+
+
+\begin{DoxyParams}{Parameters}
+{\em N} & size of char array to be created\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+new char array allocated in heap memory 
+\end{DoxyReturn}
+\label{lib__util_8c_a5ba3cf6fcab01d08810c6f218aff3eff} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!new\+Int\+Array@{new\+Int\+Array}}
+\index{new\+Int\+Array@{new\+Int\+Array}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{new\+Int\+Array()}
+{\footnotesize\ttfamily int$\ast$ new\+Int\+Array (\begin{DoxyParamCaption}\item[{int}]{N }\end{DoxyParamCaption})}
+
+
+
+int array dynamic managing 
+
+
+\begin{DoxyParams}{Parameters}
+{\em N} & size of int array to be created\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+new int array allocate in heap memory 
+\end{DoxyReturn}
+\label{lib__util_8c_a111139000f3b4b6c6279a767613bd1ea} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!print\+Array@{print\+Array}}
+\index{print\+Array@{print\+Array}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{print\+Array()}
+{\footnotesize\ttfamily void print\+Array (\begin{DoxyParamCaption}\item[{int $\ast$}]{a,  }\item[{int}]{N }\end{DoxyParamCaption})}
+
+\label{lib__util_8c_a8b7139ad6768a94ed9ef3c1658dbc0f0} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!read\+Ints@{read\+Ints}}
+\index{read\+Ints@{read\+Ints}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{read\+Ints()}
+{\footnotesize\ttfamily int read\+Ints (\begin{DoxyParamCaption}\item[{char $\ast$}]{filename,  }\item[{int $\ast$}]{intvec,  }\item[{int}]{nmax }\end{DoxyParamCaption})}
+
+\label{lib__util_8c_a341dc1557d8a77725b8a75cfe55d0d9c} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!read\+Ints\+Header@{read\+Ints\+Header}}
+\index{read\+Ints\+Header@{read\+Ints\+Header}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{read\+Ints\+Header()}
+{\footnotesize\ttfamily int read\+Ints\+Header (\begin{DoxyParamCaption}\item[{char $\ast$}]{filename,  }\item[{int $\ast$$\ast$}]{intvec }\end{DoxyParamCaption})}
+
+\label{lib__util_8c_a49ccd6574e920625e550611b866e0061} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!sort\+Int\+Array@{sort\+Int\+Array}}
+\index{sort\+Int\+Array@{sort\+Int\+Array}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{sort\+Int\+Array()}
+{\footnotesize\ttfamily void sort\+Int\+Array (\begin{DoxyParamCaption}\item[{int $\ast$}]{v,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+Sort int arrays using quick sort from the C library
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & integer array to sort \\
+\hline
+{\em n} & size of the array \\
+\hline
+\end{DoxyParams}
+\label{lib__util_8c_a208b2f2e1c8baf599e4dccc30d5cb68c} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!uniform@{uniform}}
+\index{uniform@{uniform}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{uniform()}
+{\footnotesize\ttfamily int uniform (\begin{DoxyParamCaption}\item[{int}]{val\+\_\+min,  }\item[{int}]{val\+\_\+max }\end{DoxyParamCaption})}
+
+
+
+gera um inteiro aleatoriamente/uniformemente no intervalo\+: val\+\_\+min...val\+\_\+max 
+
+\label{lib__util_8c_ae71ab2f0c99295c1d34ca63a0d528582} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!uniform\+\_\+double@{uniform\+\_\+double}}
+\index{uniform\+\_\+double@{uniform\+\_\+double}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{uniform\+\_\+double()}
+{\footnotesize\ttfamily double uniform\+\_\+double (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+gera um double aleatoriamente/uniformemente no intervalo 0..1 
+
+\label{lib__util_8c_a7ba1451d0da2635a229e7a38c8cb855f} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!uniform\+\_\+double\+\_\+interval@{uniform\+\_\+double\+\_\+interval}}
+\index{uniform\+\_\+double\+\_\+interval@{uniform\+\_\+double\+\_\+interval}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{uniform\+\_\+double\+\_\+interval()}
+{\footnotesize\ttfamily double uniform\+\_\+double\+\_\+interval (\begin{DoxyParamCaption}\item[{double}]{val\+\_\+min,  }\item[{double}]{val\+\_\+max }\end{DoxyParamCaption})}
+
+
+
+gera um double aleatoriamente/uniformemente no intervalo 0..1 
+
+\label{lib__util_8c_a9b94966f5987d3980e36efcd8398f95f} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!uniform\+Array@{uniform\+Array}}
+\index{uniform\+Array@{uniform\+Array}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{uniform\+Array()}
+{\footnotesize\ttfamily int uniform\+Array (\begin{DoxyParamCaption}\item[{int $\ast$}]{a,  }\item[{int}]{N,  }\item[{int}]{val\+\_\+min,  }\item[{int}]{val\+\_\+max }\end{DoxyParamCaption})}
+
+
+
+function to fill an array with integer random uniformly distributed values (returns -\/1 if error) 
+
+\label{lib__util_8c_abe28a8d01e728c45f8f7025b78854bc1} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!uniform\+Distinct\+Array@{uniform\+Distinct\+Array}}
+\index{uniform\+Distinct\+Array@{uniform\+Distinct\+Array}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{uniform\+Distinct\+Array()}
+{\footnotesize\ttfamily int uniform\+Distinct\+Array (\begin{DoxyParamCaption}\item[{int $\ast$}]{a,  }\item[{int}]{N,  }\item[{int}]{val\+\_\+min,  }\item[{int}]{val\+\_\+max }\end{DoxyParamCaption})}
+
+
+
+function to fill an array with integer random uniformly distributed distinct values (returns -\/1 if error) 
+
+\label{lib__util_8c_ad9f5d69c08f2a8d2adf8531b101c6b1c} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!write\+Ints@{write\+Ints}}
+\index{write\+Ints@{write\+Ints}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{write\+Ints()}
+{\footnotesize\ttfamily int write\+Ints (\begin{DoxyParamCaption}\item[{char $\ast$}]{filename,  }\item[{int $\ast$}]{intvec,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+\label{lib__util_8c_a90cda0201d5b07c354fbf099d5a3e2ca} 
+\index{lib\+\_\+util.\+c@{lib\+\_\+util.\+c}!write\+Ints\+Header@{write\+Ints\+Header}}
+\index{write\+Ints\+Header@{write\+Ints\+Header}!lib\+\_\+util.\+c@{lib\+\_\+util.\+c}}
+\subsubsection{write\+Ints\+Header()}
+{\footnotesize\ttfamily int write\+Ints\+Header (\begin{DoxyParamCaption}\item[{char $\ast$}]{filename,  }\item[{int $\ast$}]{intvec,  }\item[{int}]{n }\end{DoxyParamCaption})}
+

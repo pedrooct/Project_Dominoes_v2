@@ -1,0 +1,431 @@
+# depslib dependency file v1.0
+1483608472 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1483554663 c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes\func_h\data.h
+
+1476463149 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes\func\player.c
+	<stdio.h>
+	<stdlib.h>
+	"../func_h/player.h"
+
+1483607211 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	"func_h/data.h"
+
+1476463149 c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes\func_h\player.h
+
+1476467718 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes\func\menu.c
+	<stdio.h>
+
+1476530772 source:c:\users\paulo\desktop\project_dominoes\func\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"../func_h/menu.h"
+	"../func_h/data.h"
+
+1476463149 source:c:\users\paulo\desktop\project_dominoes\func\player.c
+	<stdio.h>
+	<stdlib.h>
+	"../func_h/player.h"
+
+1476463149 c:\users\paulo\desktop\project_dominoes\func_h\player.h
+
+1480591327 source:c:\users\paulo\desktop\project_dominoes\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"func_h/data.h"
+
+1480693832 source:c:\users\paulo\desktop\project_dominoes\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1480248174 c:\users\paulo\desktop\project_dominoes\func_h\data.h
+
+1476485000 c:\users\paulo\desktop\project_dominoes\func_h\menu.h
+
+1476530772 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes\func\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"../func_h/menu.h"
+	"../func_h/data.h"
+
+1476485000 c:\users\paulo\dropbox\2ano_projecto\project_dominoes\func_h\menu.h
+
+1483554663 c:\users\paulo\dropbox\2ano_projecto\project_dominoes\func_h\data.h
+
+1483607211 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	"func_h/data.h"
+
+1483608472 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1474559657 c:\users\paulo\dropbox\2ano_projecto\project_dominoes\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1482575649 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1474559657 c:\users\paulo\desktop\project_dominoes\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1476526781 source:c:\users\paulo\desktop\project_dominoes\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1476530381 source:c:\users\pedro costa\desktop\documentos\project_dominoes\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1474563257 c:\users\pedro costa\desktop\documentos\project_dominoes\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1476530772 source:c:\users\pedro costa\desktop\documentos\project_dominoes\func\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"../func_h/menu.h"
+	"../func_h/data.h"
+
+1476485000 c:\users\pedro costa\desktop\documentos\project_dominoes\func_h\menu.h
+
+1477674527 c:\users\pedro costa\desktop\documentos\project_dominoes\func_h\data.h
+
+1477680942 source:c:\users\pedro costa\desktop\documentos\project_dominoes\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1477683430 source:c:\users\pedro costa\desktop\documentos\project_dominoes\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1476526781 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1474559657 c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1476527172 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update\func\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"../func_h/menu.h"
+	"../func_h/data.h"
+
+1476481400 c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update\func_h\menu.h
+
+1477670927 c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update\func_h\data.h
+
+1477759640 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1478350413 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1478345995 c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update\func_h\data.h
+
+1474559657 c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1476526781 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1476527172 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update\func\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"../func_h/menu.h"
+	"../func_h/data.h"
+
+1476481400 c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update\func_h\menu.h
+
+1478349747 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1477820792 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1478358448 source:c:\users\paulo\desktop\project_dominoes_update\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1478345995 c:\users\paulo\desktop\project_dominoes_update\func_h\data.h
+
+1474559657 c:\users\paulo\desktop\project_dominoes_update\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1476526781 source:c:\users\paulo\desktop\project_dominoes_update\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1476527172 source:c:\users\paulo\desktop\project_dominoes_update\func\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"../func_h/menu.h"
+	"../func_h/data.h"
+
+1476481400 c:\users\paulo\desktop\project_dominoes_update\func_h\menu.h
+
+1478358541 source:c:\users\paulo\desktop\project_dominoes_update\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1478864167 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update_2\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1478556401 c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update_2\func_h\data.h
+
+1474559657 c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update_2\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1476526781 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update_2\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1476527172 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update_2\func\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"../func_h/menu.h"
+	"../func_h/data.h"
+
+1476481400 c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update_2\func_h\menu.h
+
+1478863592 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update_2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1478884266 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update_2\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1478878528 c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update_2\func_h\data.h
+
+1474559657 c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update_2\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1476526781 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update_2\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1478881311 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update_2\func\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"../func_h/menu.h"
+	"../func_h/data.h"
+
+1476481400 c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update_2\func_h\menu.h
+
+1478884002 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update_2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1476526781 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update_3\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1474559657 c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update_3\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1479902340 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update_3\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1479899379 c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update_3\func_h\data.h
+
+1479903782 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes_update_3\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1479051297 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update_3\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1478878528 c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update_3\func_h\data.h
+
+1474559657 c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update_3\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1476526781 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update_3\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1479585747 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes_update_3\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1476526781 source:c:\users\paulo\desktop\project_dominoes_update_3\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1474559657 c:\users\paulo\desktop\project_dominoes_update_3\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1479919760 source:c:\users\paulo\desktop\project_dominoes_update_3\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1479917969 c:\users\paulo\desktop\project_dominoes_update_3\func_h\data.h
+
+1479951025 source:c:\users\paulo\desktop\project_dominoes_update_3\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1479919760 source:c:\users\paulo\desktop\minhas coisas\project_dominoes\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1479917969 c:\users\paulo\desktop\minhas coisas\project_dominoes\func_h\data.h
+
+1474559657 c:\users\paulo\desktop\minhas coisas\project_dominoes\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1476526781 source:c:\users\paulo\desktop\minhas coisas\project_dominoes\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1479951025 source:c:\users\paulo\desktop\minhas coisas\project_dominoes\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1474559657 c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1482575649 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1476526781 source:c:\users\pedro costa\desktop\project_dominoes\func\lib_util.c
+	"../func_h/lib_util.h"
+
+1474559657 c:\users\pedro costa\desktop\project_dominoes\func_h\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1480011300 source:c:\users\pedro costa\desktop\project_dominoes\func\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+	"../func_h/lib_util.h"
+
+1480011757 c:\users\pedro costa\desktop\project_dominoes\func_h\data.h
+
+1480011902 source:c:\users\pedro costa\desktop\project_dominoes\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1483477802 source:c:\users\pedro costa\dropbox\2ano_projecto\project_dominoes\func\data_part2.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+
+1483477802 source:c:\users\paulo\dropbox\2ano_projecto\project_dominoes\func\data_part2.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"../func_h/data.h"
+
